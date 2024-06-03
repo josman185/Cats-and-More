@@ -9,7 +9,10 @@ import SwiftUI
 
 struct CatsView: View {
     var body: some View {
-        Text("Cats View")
+        NavigationView {
+            Text("Cats View")
+                .navigationTitle("Lovely Cats")
+        }
     }
 }
 

@@ -9,10 +9,15 @@ import SwiftUI
 
 struct ShoppingView: View {
     var body: some View {
-        Text("Shopping View")
+        NavigationView {
+            Text("Shopping View")
+                .navigationTitle("Shopping")
+        }
     }
 }
 
-#Preview {
-    ShoppingView()
+struct ShoppingView_Previews: PreviewProvider {
+    static var previews: some View {
+        ShoppingView()
+    }
 }
