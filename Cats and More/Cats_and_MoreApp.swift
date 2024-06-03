@@ -11,7 +11,7 @@ import SwiftUI
 struct Cats_and_MoreApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabBarView()
         }
     }
 }

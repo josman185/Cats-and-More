@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E5F6D97C2C0E7B0E00095160 /* Cats_and_MoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D97B2C0E7B0E00095160 /* Cats_and_MoreApp.swift */; };
-		E5F6D97E2C0E7B0E00095160 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D97D2C0E7B0E00095160 /* ContentView.swift */; };
+		E5F6D97E2C0E7B0E00095160 /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D97D2C0E7B0E00095160 /* MainTabBarView.swift */; };
 		E5F6D9802C0E7B1000095160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F6D97F2C0E7B1000095160 /* Assets.xcassets */; };
 		E5F6D9832C0E7B1000095160 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F6D9822C0E7B1000095160 /* Preview Assets.xcassets */; };
 		E5F6D98D2C0E7B1100095160 /* Cats_and_MoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D98C2C0E7B1100095160 /* Cats_and_MoreTests.swift */; };
 		E5F6D9972C0E7B1100095160 /* Cats_and_MoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D9962C0E7B1100095160 /* Cats_and_MoreUITests.swift */; };
 		E5F6D9992C0E7B1100095160 /* Cats_and_MoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D9982C0E7B1100095160 /* Cats_and_MoreUITestsLaunchTests.swift */; };
+		E5F6D9A62C0E7CCB00095160 /* ShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D9A52C0E7CCB00095160 /* ShoppingView.swift */; };
+		E5F6D9A82C0E7CEE00095160 /* CatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D9A72C0E7CEE00095160 /* CatsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,7 @@
 /* Begin PBXFileReference section */
 		E5F6D9782C0E7B0E00095160 /* Cats and More.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cats and More.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F6D97B2C0E7B0E00095160 /* Cats_and_MoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cats_and_MoreApp.swift; sourceTree = "<group>"; };
-		E5F6D97D2C0E7B0E00095160 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E5F6D97D2C0E7B0E00095160 /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
 		E5F6D97F2C0E7B1000095160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5F6D9822C0E7B1000095160 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E5F6D9882C0E7B1100095160 /* Cats and MoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cats and MoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		E5F6D9922C0E7B1100095160 /* Cats and MoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cats and MoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F6D9962C0E7B1100095160 /* Cats_and_MoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cats_and_MoreUITests.swift; sourceTree = "<group>"; };
 		E5F6D9982C0E7B1100095160 /* Cats_and_MoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cats_and_MoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E5F6D9A52C0E7CCB00095160 /* ShoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingView.swift; sourceTree = "<group>"; };
+		E5F6D9A72C0E7CEE00095160 /* CatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				E5F6D97B2C0E7B0E00095160 /* Cats_and_MoreApp.swift */,
-				E5F6D97D2C0E7B0E00095160 /* ContentView.swift */,
+				E5F6D97D2C0E7B0E00095160 /* MainTabBarView.swift */,
 				E5F6D97F2C0E7B1000095160 /* Assets.xcassets */,
 				E5F6D9812C0E7B1000095160 /* Preview Content */,
+				E5F6D9A52C0E7CCB00095160 /* ShoppingView.swift */,
+				E5F6D9A72C0E7CEE00095160 /* CatsView.swift */,
 			);
 			path = "Cats and More";
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5F6D97E2C0E7B0E00095160 /* ContentView.swift in Sources */,
+				E5F6D97E2C0E7B0E00095160 /* MainTabBarView.swift in Sources */,
 				E5F6D97C2C0E7B0E00095160 /* Cats_and_MoreApp.swift in Sources */,
+				E5F6D9A62C0E7CCB00095160 /* ShoppingView.swift in Sources */,
+				E5F6D9A82C0E7CEE00095160 /* CatsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
