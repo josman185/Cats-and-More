@@ -8,12 +8,18 @@
 import SwiftUI
 
 struct ShoppingView: View {
+    
+    @StateObject var viewModel = ItemViewModel()
+    
     var body: some View {
         NavigationView {
-            List(MockData.items) { item in
+            List(viewModel.items) { item in
                 ItemCell(item: item)
             }
             .navigationTitle("Shopping")
+        }
+        .onAppear {
+            viewModel.getItems()
         }
     }
 }
