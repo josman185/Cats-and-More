@@ -21,6 +21,11 @@ struct ShoppingView: View {
         .onAppear {
             viewModel.getItems()
         }
+        .alert(item: $viewModel.alertItem) { alertItem in
+            Alert(title: alertItem.title,
+                  message: alertItem.message,
+                  dismissButton: alertItem.dismissButton)
+        }
     }
 }
 

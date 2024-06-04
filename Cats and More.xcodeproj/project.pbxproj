@@ -22,6 +22,7 @@
 		E5F6D9B32C0EA15900095160 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D9B22C0EA15900095160 /* NetworkManager.swift */; };
 		E5F6D9B52C0EA2F900095160 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D9B42C0EA2F900095160 /* APIError.swift */; };
 		E5F6D9B72C0FC92B00095160 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D9B62C0FC92B00095160 /* ItemViewModel.swift */; };
+		E5F6D9B92C0FCB6E00095160 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D9B82C0FCB6E00095160 /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		E5F6D9B22C0EA15900095160 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		E5F6D9B42C0EA2F900095160 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		E5F6D9B62C0FC92B00095160 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
+		E5F6D9B82C0FCB6E00095160 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,14 +112,15 @@
 		E5F6D97A2C0E7B0E00095160 /* Cats and More */ = {
 			isa = PBXGroup;
 			children = (
-				E5F6D9B12C0EA14100095160 /* Managers */,
 				E5F6D97B2C0E7B0E00095160 /* Cats_and_MoreApp.swift */,
 				E5F6D97D2C0E7B0E00095160 /* MainTabBarView.swift */,
 				E5F6D97F2C0E7B1000095160 /* Assets.xcassets */,
+				E5F6D9B42C0EA2F900095160 /* APIError.swift */,
+				E5F6D9B12C0EA14100095160 /* Managers */,
 				E5F6D9AC2C0E90AE00095160 /* Cats */,
 				E5F6D9AB2C0E90A400095160 /* Shopping */,
 				E5F6D9812C0E7B1000095160 /* Preview Content */,
-				E5F6D9B42C0EA2F900095160 /* APIError.swift */,
+				E5F6D9B82C0FCB6E00095160 /* Alert.swift */,
 			);
 			path = "Cats and More";
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				E5F6D9B32C0EA15900095160 /* NetworkManager.swift in Sources */,
 				E5F6D9B52C0EA2F900095160 /* APIError.swift in Sources */,
 				E5F6D9B02C0E9B6500095160 /* ItemCell.swift in Sources */,
+				E5F6D9B92C0FCB6E00095160 /* Alert.swift in Sources */,
 				E5F6D9A62C0E7CCB00095160 /* ShoppingView.swift in Sources */,
 				E5F6D9A82C0E7CEE00095160 /* CatsView.swift in Sources */,
 			);
