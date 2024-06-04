@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Product
-struct Item: Decodable {
+struct Item: Decodable, Identifiable {
     let id: Int
     let title, description: String
     let price: Double
@@ -27,7 +27,7 @@ struct MockData {
                            description: "The Essence Mascara Lash Princess is a popular mascara.",
                            price: 9.99,
                            images: ["https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"],
-                           thumbnail: "https://cdn.dummyjson.co…20Princess/thumbnail.png")
+                           thumbnail: "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png")
     
     static let items = [sampleItem, sampleItem, sampleItem, sampleItem]
 }

@@ -10,8 +10,10 @@ import SwiftUI
 struct ShoppingView: View {
     var body: some View {
         NavigationView {
-            Text("Shopping View")
-                .navigationTitle("Shopping")
+            List(MockData.items) { item in
+                ItemCell(item: item)
+            }
+            .navigationTitle("Shopping")
         }
     }
 }
