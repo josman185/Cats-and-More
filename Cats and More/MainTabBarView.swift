@@ -21,7 +21,7 @@ struct MainTabBarView: View {
                     Text("Animals")
                 }
         }
-        .accentColor(Color("brandPrimary"))
+        .accentColor(.brandPrimary)
     }
 }
 

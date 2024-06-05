@@ -11,10 +11,13 @@ final class ItemViewModel: ObservableObject {
     
     @Published var items: [Item] = []
     @Published var alertItem: AlertItem?
+    @Published var isLoading = false
     
     func getItems() {
+        isLoading = true
         NetworkManager.shared.downloadItems { result in
             DispatchQueue.main.async { [self] in
+                isLoading = false
                 switch result {
                 case .success(let success):
                     self.items = success

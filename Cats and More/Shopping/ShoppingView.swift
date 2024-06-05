@@ -12,14 +12,20 @@ struct ShoppingView: View {
     @StateObject var viewModel = ItemViewModel()
     
     var body: some View {
-        NavigationView {
-            List(viewModel.items) { item in
-                ItemCell(item: item)
+        ZStack {
+            NavigationView {
+                List(viewModel.items) { item in
+                    ItemCell(item: item)
+                }
+                .navigationTitle("Shopping")
             }
-            .navigationTitle("Shopping")
-        }
-        .onAppear {
-            viewModel.getItems()
+            .onAppear {
+                viewModel.getItems()
+            }
+            
+            if viewModel.isLoading {
+                ActivityIndicator()
+            }
         }
         .alert(item: $viewModel.alertItem) { alertItem in
             Alert(title: alertItem.title,

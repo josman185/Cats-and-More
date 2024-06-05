@@ -23,6 +23,8 @@
 		E5F6D9B52C0EA2F900095160 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D9B42C0EA2F900095160 /* APIError.swift */; };
 		E5F6D9B72C0FC92B00095160 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D9B62C0FC92B00095160 /* ItemViewModel.swift */; };
 		E5F6D9B92C0FCB6E00095160 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D9B82C0FCB6E00095160 /* Alert.swift */; };
+		E5F6D9BB2C0FD76600095160 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D9BA2C0FD76600095160 /* ActivityIndicator.swift */; };
+		E5F6D9BE2C0FDB4300095160 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D9BD2C0FDB4300095160 /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		E5F6D9B42C0EA2F900095160 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		E5F6D9B62C0FC92B00095160 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
 		E5F6D9B82C0FCB6E00095160 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		E5F6D9BA2C0FD76600095160 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		E5F6D9BD2C0FDB4300095160 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		E5F6D97A2C0E7B0E00095160 /* Cats and More */ = {
 			isa = PBXGroup;
 			children = (
+				E5F6D9BC2C0FDB2100095160 /* Extensions */,
 				E5F6D97B2C0E7B0E00095160 /* Cats_and_MoreApp.swift */,
 				E5F6D97D2C0E7B0E00095160 /* MainTabBarView.swift */,
 				E5F6D97F2C0E7B1000095160 /* Assets.xcassets */,
@@ -121,6 +126,7 @@
 				E5F6D9AB2C0E90A400095160 /* Shopping */,
 				E5F6D9812C0E7B1000095160 /* Preview Content */,
 				E5F6D9B82C0FCB6E00095160 /* Alert.swift */,
+				E5F6D9BA2C0FD76600095160 /* ActivityIndicator.swift */,
 			);
 			path = "Cats and More";
 			sourceTree = "<group>";
@@ -176,6 +182,14 @@
 				E5F6D9B22C0EA15900095160 /* NetworkManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		E5F6D9BC2C0FDB2100095160 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E5F6D9BD2C0FDB4300095160 /* Color+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -312,6 +326,8 @@
 				E5F6D97E2C0E7B0E00095160 /* MainTabBarView.swift in Sources */,
 				E5F6D9AE2C0E90EF00095160 /* Cat.swift in Sources */,
 				E5F6D9B72C0FC92B00095160 /* ItemViewModel.swift in Sources */,
+				E5F6D9BE2C0FDB4300095160 /* Color+Ext.swift in Sources */,
+				E5F6D9BB2C0FD76600095160 /* ActivityIndicator.swift in Sources */,
 				E5F6D97C2C0E7B0E00095160 /* Cats_and_MoreApp.swift in Sources */,
 				E5F6D9B32C0EA15900095160 /* NetworkManager.swift in Sources */,
 				E5F6D9B52C0EA2F900095160 /* APIError.swift in Sources */,

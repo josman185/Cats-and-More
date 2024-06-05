@@ -5,11 +5,12 @@
 //  Created by Jose Vargas on 6/3/24.
 //
 
-import Foundation
+import UIKit
 
 final class NetworkManager {
     
     static let shared = NetworkManager()
+    private let cache = NSCache<NSString,UIImage>()
     
     private let baseURL = "https://dummyjson.com/products"
     
