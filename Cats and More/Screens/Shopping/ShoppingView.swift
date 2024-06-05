@@ -15,7 +15,9 @@ struct ShoppingView: View {
         ZStack {
             NavigationView {
                 List(viewModel.items) { item in
-                    ItemCell(item: item)
+                    NavigationLink(destination: ShoppingDetailView(item: item)) {
+                        ItemCell(item: item)
+                    }
                 }
                 .navigationTitle("Shopping")
             }

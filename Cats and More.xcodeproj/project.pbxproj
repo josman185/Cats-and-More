@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E5C2F3E52C10BCFF006C7EDD /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C2F3E42C10BCFF006C7EDD /* RemoteImage.swift */; };
+		E5C2F3EC2C10D9B4006C7EDD /* ShoppingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C2F3EB2C10D9B4006C7EDD /* ShoppingDetailView.swift */; };
 		E5F6D97C2C0E7B0E00095160 /* Cats_and_MoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D97B2C0E7B0E00095160 /* Cats_and_MoreApp.swift */; };
 		E5F6D97E2C0E7B0E00095160 /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F6D97D2C0E7B0E00095160 /* MainTabBarView.swift */; };
 		E5F6D9802C0E7B1000095160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F6D97F2C0E7B1000095160 /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 
 /* Begin PBXFileReference section */
 		E5C2F3E42C10BCFF006C7EDD /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		E5C2F3EB2C10D9B4006C7EDD /* ShoppingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingDetailView.swift; sourceTree = "<group>"; };
 		E5F6D9782C0E7B0E00095160 /* Cats and More.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cats and More.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F6D97B2C0E7B0E00095160 /* Cats_and_MoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cats_and_MoreApp.swift; sourceTree = "<group>"; };
 		E5F6D97D2C0E7B0E00095160 /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 			children = (
 				E5F6D9B62C0FC92B00095160 /* ItemViewModel.swift */,
 				E5F6D9A52C0E7CCB00095160 /* ShoppingView.swift */,
+				E5C2F3EB2C10D9B4006C7EDD /* ShoppingDetailView.swift */,
 				E5F6D9AF2C0E9B6500095160 /* ItemCell.swift */,
 			);
 			path = Shopping;
@@ -365,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C2F3EC2C10D9B4006C7EDD /* ShoppingDetailView.swift in Sources */,
 				E5F6D9AA2C0E8B9300095160 /* Item.swift in Sources */,
 				E5F6D97E2C0E7B0E00095160 /* MainTabBarView.swift in Sources */,
 				E5F6D9AE2C0E90EF00095160 /* Cat.swift in Sources */,
