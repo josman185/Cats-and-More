@@ -12,8 +12,7 @@ struct ItemCell: View {
     
     var body: some View {
         HStack {
-            Image("thumbnail")
-                .resizable()
+            ItemRemoteImage(urlString: item.thumbnail)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 120, height: 90)
                 .cornerRadius(8)
