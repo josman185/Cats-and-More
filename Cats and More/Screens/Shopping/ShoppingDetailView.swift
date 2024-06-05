@@ -12,15 +12,16 @@ struct ShoppingDetailView: View {
     var item: Item
     
     var body: some View {
-        VStack(alignment: .center, spacing: 35) {
+        VStack(spacing: 20) {
             HStack {
                 Text("\(item.category)")
                 Spacer()
                 Image(systemName: "star.lefthalf.fill")
-                Text("\(item.rating, specifier: "%.2f")")
+                Text("\(item.rating, specifier: "%.1f")")
             }
             .font(.subheadline)
             .foregroundStyle(.secondary)
+            .padding()
             
             Text("\(item.title)")
                 .font(.title2)
@@ -32,16 +33,24 @@ struct ShoppingDetailView: View {
                 .frame(height:150)
                 .cornerRadius(12)
             
-            HStack(spacing: 50) {
-                Text("$\(item.price, specifier: "%.2f")")
-                    .font(.headline)
-                Text("\(item.discountPercentage, specifier: "%.1f") % OFF")
-                    .font(.caption)
-            }
+            Text("\(item.discountPercentage, specifier: "%.1f")% OFF")
+                .font(.headline)
             
             Text("\(item.description)")
                 .font(.subheadline)
                 .padding()
+            
+            Spacer()
+            
+            Button("$ \(item.price, specifier: "%.2f")") {
+                
+            }
+            .bold()
+            .font(.title2)
+            .frame(width: 280, height: 50)
+            .background(Color.brandPrimaryColor)
+            .foregroundColor(.white)
+            .cornerRadius(10)
         }
         .padding(20)
     }
