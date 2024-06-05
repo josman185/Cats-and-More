@@ -98,14 +98,56 @@
 		E5C2F3E62C10C981006C7EDD /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				E5C2F3E82C10CB07006C7EDD /* UIKit Components */,
+				E5C2F3E72C10CA7D006C7EDD /* Alerts */,
+				E5F6D9B12C0EA14100095160 /* Managers */,
+				E5F6D9BC2C0FDB2100095160 /* Extensions */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E5C2F3E72C10CA7D006C7EDD /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				E5F6D9B82C0FCB6E00095160 /* Alert.swift */,
+				E5F6D9B42C0EA2F900095160 /* APIError.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		E5C2F3E82C10CB07006C7EDD /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				E5F6D9BA2C0FD76600095160 /* ActivityIndicator.swift */,
+				E5C2F3E42C10BCFF006C7EDD /* RemoteImage.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		E5C2F3E92C10CBE5006C7EDD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5F6D9A92C0E8B9300095160 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E5C2F3EA2C10CC11006C7EDD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E5F6D97D2C0E7B0E00095160 /* MainTabBarView.swift */,
+				E5F6D9AB2C0E90A400095160 /* Shopping */,
+				E5F6D9AC2C0E90AE00095160 /* Cats */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		E5F6D96F2C0E7B0E00095160 = {
 			isa = PBXGroup;
 			children = (
 				E5F6D97A2C0E7B0E00095160 /* Cats and More */,
+				E5F6D97B2C0E7B0E00095160 /* Cats_and_MoreApp.swift */,
+				E5F6D97F2C0E7B1000095160 /* Assets.xcassets */,
 				E5F6D98B2C0E7B1100095160 /* Cats and MoreTests */,
 				E5F6D9952C0E7B1100095160 /* Cats and MoreUITests */,
 				E5F6D9792C0E7B0E00095160 /* Products */,
@@ -125,19 +167,10 @@
 		E5F6D97A2C0E7B0E00095160 /* Cats and More */ = {
 			isa = PBXGroup;
 			children = (
+				E5C2F3EA2C10CC11006C7EDD /* Screens */,
+				E5C2F3E92C10CBE5006C7EDD /* Model */,
 				E5C2F3E62C10C981006C7EDD /* Utilities */,
-				E5F6D9BC2C0FDB2100095160 /* Extensions */,
-				E5F6D97B2C0E7B0E00095160 /* Cats_and_MoreApp.swift */,
-				E5F6D97D2C0E7B0E00095160 /* MainTabBarView.swift */,
-				E5F6D97F2C0E7B1000095160 /* Assets.xcassets */,
-				E5F6D9B42C0EA2F900095160 /* APIError.swift */,
-				E5F6D9B12C0EA14100095160 /* Managers */,
-				E5F6D9AC2C0E90AE00095160 /* Cats */,
-				E5F6D9AB2C0E90A400095160 /* Shopping */,
 				E5F6D9812C0E7B1000095160 /* Preview Content */,
-				E5F6D9B82C0FCB6E00095160 /* Alert.swift */,
-				E5F6D9BA2C0FD76600095160 /* ActivityIndicator.swift */,
-				E5C2F3E42C10BCFF006C7EDD /* RemoteImage.swift */,
 			);
 			path = "Cats and More";
 			sourceTree = "<group>";
@@ -170,10 +203,9 @@
 		E5F6D9AB2C0E90A400095160 /* Shopping */ = {
 			isa = PBXGroup;
 			children = (
-				E5F6D9A92C0E8B9300095160 /* Item.swift */,
+				E5F6D9B62C0FC92B00095160 /* ItemViewModel.swift */,
 				E5F6D9A52C0E7CCB00095160 /* ShoppingView.swift */,
 				E5F6D9AF2C0E9B6500095160 /* ItemCell.swift */,
-				E5F6D9B62C0FC92B00095160 /* ItemViewModel.swift */,
 			);
 			path = Shopping;
 			sourceTree = "<group>";

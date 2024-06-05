@@ -18,6 +18,4 @@ struct ActivityIndicator: UIViewRepresentable {
     func updateUIView(_ uiView: UIActivityIndicatorView, context: Context) {}
     
     typealias UIViewType = UIActivityIndicatorView
-    
-    
 }
