@@ -13,10 +13,16 @@ final class ItemViewModel: ObservableObject {
     @Published var alertItem: AlertItem?
     @Published var isLoading = false
     
+    private let networkingManager: NetworkManagerImpl!
+    
+    init(networkingManager: NetworkManagerImpl = NetworkService()) {
+        self.networkingManager = networkingManager
+    }
+    
     func getItems() {
         isLoading = true
-        NetworkManager.shared.downloadItems { result in
-            DispatchQueue.main.async { [self] in
+        networkingManager.downloadItems { [self] result in
+            guaranteeMainThread { [self] in
                 isLoading = false
                 switch result {
                 case .success(let success):

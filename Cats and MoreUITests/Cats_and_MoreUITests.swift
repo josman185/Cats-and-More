@@ -8,24 +8,35 @@
 import XCTest
 
 final class Cats_and_MoreUITests: XCTestCase {
+    
+    private var app: XCUIApplication!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        app = XCUIApplication()
+        app.launchArguments = ["-ui-testing"]
+        app.launchEnvironment = ["-networking-success":"1"]
+        app.launch()
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        app = nil
     }
 
     func testExample() throws {
         // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
+        let title = app.staticTexts["Shopping"]
+        XCTAssert(title.exists, "Title Label not found")
+        
+        let downloadedCell = app.tables.staticTexts["Essence Mascara Lash Princess"]
+        
+        expectation(for: NSPredicate(format: "exists == 1"), evaluatedWith: downloadedCell, handler: nil)
+        
+        waitForExpectations(timeout: 10, handler: nil)
+        
+        //XCUIApplication().collectionViews.staticTexts["Essence Mascara Lash Princess"].tap()
+
+        
 
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

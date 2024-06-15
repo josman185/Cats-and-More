@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "81E0F299-1BFC-457A-8B3B-51B36DCB062B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "080C17F5-5BA5-42AE-A8AF-08C331A3B029"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cats and More/Utilities/Managers/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "downloadItems(completed:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "080C17F5-5BA5-42AE-A8AF-08C331A3B029 - ae65efc3c5d5f614"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cats_and_More.NetworkManager.downloadItems(completed: (Swift.Result&lt;Swift.Array&lt;Cats_and_More.Item&gt;, Cats_and_More.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Cats and More"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josevargas/Desktop/Cats%20and%20More/Cats%20and%20More/Utilities/Managers/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "283">
+               </Location>
+               <Location
+                  uuid = "080C17F5-5BA5-42AE-A8AF-08C331A3B029 - ae65efc3c5d5f7af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cats_and_More.NetworkManager.downloadItems(completed: (Swift.Result&lt;Swift.Array&lt;Cats_and_More.Item&gt;, Cats_and_More.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Cats and More"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josevargas/Desktop/Cats%20and%20More/Cats%20and%20More/Utilities/Managers/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "283">
+               </Location>
+               <Location
+                  uuid = "080C17F5-5BA5-42AE-A8AF-08C331A3B029 - ae65efc3c5d5f423"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cats_and_More.NetworkManager.downloadItems(completed: (Swift.Result&lt;Swift.Array&lt;Cats_and_More.Item&gt;, Cats_and_More.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Cats and More"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josevargas/Desktop/Cats%20and%20More/Cats%20and%20More/Utilities/Managers/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "283">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C57D15D0-66EB-451E-9C97-5AE897CD1C12"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cats and More/Model/Item.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "MockData"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "C57D15D0-66EB-451E-9C97-5AE897CD1C12 - 1f3757b7058dbef2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "one-time initialization function for items"
+                  moduleName = "Cats and More"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josevargas/Desktop/Cats%20and%20More/Cats%20and%20More/Model/Item.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "C57D15D0-66EB-451E-9C97-5AE897CD1C12 - 91b594df9733218c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cats_and_More.MockData.items.unsafeMutableAddressor : Swift.Array&lt;Cats_and_More.Item&gt;"
+                  moduleName = "Cats and More"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josevargas/Desktop/Cats%20and%20More/Cats%20and%20More/Model/Item.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7FC7CC1A-70CB-4191-ABAC-ACE79996F280"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cats and MoreTests/ViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "testFetchData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64B30B80-8F12-4A74-BE98-3DB543F7058B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cats and MoreTests/Mocks/NetworkingManagerResponseSuccessMock.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "readLocalJsonFile()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "64B30B80-8F12-4A74-BE98-3DB543F7058B - 86f99921d65d966a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cats_and_MoreTests.NetworkingManagerResponseSuccessMock.readLocalJsonFile() -&gt; Swift.Optional&lt;Swift.Array&lt;Cats_and_More.Item&gt;&gt;"
+                  moduleName = "Cats and MoreTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josevargas/Desktop/Cats%20and%20More/Cats%20and%20MoreTests/Mocks/NetworkingManagerResponseSuccessMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "199">
+               </Location>
+               <Location
+                  uuid = "64B30B80-8F12-4A74-BE98-3DB543F7058B - 86f99921d65d966a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cats_and_MoreTests.NetworkingManagerResponseSuccessMock.readLocalJsonFile() -&gt; Swift.Optional&lt;Swift.Array&lt;Cats_and_More.Item&gt;&gt;"
+                  moduleName = "Cats and MoreTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josevargas/Desktop/Cats%20and%20More/Cats%20and%20MoreTests/Mocks/NetworkingManagerResponseSuccessMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "202">
+               </Location>
+               <Location
+                  uuid = "64B30B80-8F12-4A74-BE98-3DB543F7058B - acd711c41329483d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cats_and_MoreTests.NetworkingManagerResponseSuccessMock.readLocalJsonFile() -&gt; Swift.Optional&lt;Cats_and_More.Item&gt;"
+                  moduleName = "Cats and MoreTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josevargas/Desktop/Cats%20and%20More/Cats%20and%20MoreTests/Mocks/NetworkingManagerResponseSuccessMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "214">
+               </Location>
+               <Location
+                  uuid = "64B30B80-8F12-4A74-BE98-3DB543F7058B - 86f99921d65d966a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cats_and_MoreTests.NetworkingManagerResponseSuccessMock.readLocalJsonFile() -&gt; Swift.Optional&lt;Swift.Array&lt;Cats_and_More.Item&gt;&gt;"
+                  moduleName = "Cats and MoreTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josevargas/Desktop/Cats%20and%20More/Cats%20and%20MoreTests/Mocks/NetworkingManagerResponseSuccessMock.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "217">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7CA41129-8CAC-4A9E-9E45-9312D23F806C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cats and More/Screens/Shopping/ItemViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getItems()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

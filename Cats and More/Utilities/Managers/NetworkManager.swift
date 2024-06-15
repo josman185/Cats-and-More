@@ -7,6 +7,13 @@
 
 import UIKit
 
+enum APIError: Error {
+    case invalidURL
+    case invalidResponse
+    case invalidData
+    case unableToComplete
+}
+
 final class NetworkManager {
     
     static let shared = NetworkManager()
@@ -17,7 +24,8 @@ final class NetworkManager {
     private init() {}
     
     func downloadItems(completed: @escaping (Result<[Item], APIError>) -> Void) {
-        guard let url = URL(string: baseURL) else {
+        guard let url = URL(string: baseURL) else 
+        {
             completed(.failure(.invalidURL))
             return
         }
@@ -74,5 +82,15 @@ final class NetworkManager {
             completed(image)
         }
         task.resume()
+    }
+}
+
+protocol NetworkManagerImpl {
+    func downloadItems(completed: @escaping (Result<[Item], APIError>) -> Void)
+}
+
+class NetworkService: NetworkManagerImpl {
+    func downloadItems(completed: @escaping (Result<[Item], APIError>) -> Void) {
+        NetworkManager.shared.downloadItems(completed: completed)
     }
 }
