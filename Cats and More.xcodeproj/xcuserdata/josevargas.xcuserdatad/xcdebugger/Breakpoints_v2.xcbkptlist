@@ -64,6 +64,21 @@
                   endingLineNumber = "37"
                   offsetFromSymbolStart = "283">
                </Location>
+               <Location
+                  uuid = "080C17F5-5BA5-42AE-A8AF-08C331A3B029 - ae65efc3c5d5f76d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cats_and_More.NetworkManager.downloadItems(completed: (Swift.Result&lt;Swift.Array&lt;Cats_and_More.Item&gt;, Cats_and_More.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Cats and More"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josevargas/Desktop/Cats%20and%20More/Cats%20and%20More/Utilities/Managers/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "283">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

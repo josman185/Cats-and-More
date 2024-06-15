@@ -20,6 +20,7 @@ struct ShoppingView: View {
                     }
                 }
                 .navigationTitle("Shopping")
+                .accessibilityIdentifier("ShoppingTableViewId")
             }
             .onAppear {
                 viewModel.getItems()

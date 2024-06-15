@@ -22,23 +22,29 @@ final class Cats_and_MoreUITests: XCTestCase {
     override func tearDownWithError() throws {
         app = nil
     }
-
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+    
+    func test_Title() throws {
         let title = app.staticTexts["Shopping"]
         XCTAssert(title.exists, "Title Label not found")
+    }
+    
+    func test_TableView_exist() throws {
+        let app = XCUIApplication()
+        let shoppingtableviewidCollectionView = app.collectionViews["ShoppingTableViewId"].exists
+        XCTAssert(shoppingtableviewidCollectionView)
+    }
+    
+    func test_Navigation_to_DetailView() throws {
+        XCUIApplication().collectionViews.staticTexts["Essence Mascara Lash Princess"].tap()
         
-        let downloadedCell = app.tables.staticTexts["Essence Mascara Lash Princess"]
-        
-        expectation(for: NSPredicate(format: "exists == 1"), evaluatedWith: downloadedCell, handler: nil)
-        
-        waitForExpectations(timeout: 10, handler: nil)
-        
-        //XCUIApplication().collectionViews.staticTexts["Essence Mascara Lash Princess"].tap()
-
-        
-
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let title = app.staticTexts["Essence Mascara Lash Princess"].exists
+        XCTAssertTrue(title)
+    }
+    
+    func test_shoppingButton_tap() throws {
+        XCUIApplication().collectionViews.staticTexts["Essence Mascara Lash Princess"].tap()
+        let shoppingButton = app.navigationBars["_TtGC7SwiftUI19UIHosting"].buttons["Shopping"]
+        shoppingButton.tap()
     }
 
     func testLaunchPerformance() throws {
